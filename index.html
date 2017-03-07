@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Fullscreen Video Background</title>
+      <link href="https://fonts.googleapis.com/css?family=Quicksand:500,600" rel="stylesheet">  
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<!--  Content  -->
+ 
+<div class="content" style="left:4vw;">
+  <div class="title">Gen5 Health</div>
+  <div class="round" style="background-image: url('images/1.png')"></div>
+  <div class="price">€ 19,99</div>
+  <div class="buttons"><a href="health.html" class="btn">BEKIJKEN</a> <a href="#" class="btn">NU KOPEN</a></div>
+</div>
+<div class="background" style="left:4vw;background-image: url('images/water.jpg');"></div>
+
+<div class="content" style="left:28vw;">
+  <div class="title">Gen5 Collagenator</div>
+  <div class="round" style="background-image: url('images/2.png')"></div>
+  <div class="price">€ 29,99</div>
+  <div class="buttons"><a href="#" class="btn">BEKIJKEN</a><a href="#" class="btn">NU KOPEN</a></div>
+</div>
+<div class="background" style="left:28vw;background-image: url('images/skin.png');"></div>
+
+<div class="content" style="left:52vw;">
+  <div class="title">Gen5 Maca V Unisex</div>
+  <div class="round" style="background-image: url('images/3.png')"></div>
+  <div class="price">€ 34,99</div>
+  <div class="buttons"><a href="#" class="btn">BEKIJKEN</a><a href="#" class="btn">NU KOPEN</a></div>
+</div>
+<div class="background" style="left:52vw;background-image: url('images/maca.png');"></div>
+
+<div class="content" style="left:76vw;">  
+  <div class="title">Gen5 ComplementA Vanille</div>
+  <div class="round" style="background-image: url('images/4.png')"></div>
+  <div class="price">€ 39,99</div>
+  <div class="buttons"><a href="#" class="btn">BEKIJKEN</a><a href="#" class="btn">NU KOPEN</a></div>
+</div>
+<div class="background" style="left:76vw;background-image: url('images/fruit.png');"></div>
+
+
+<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+<video autoplay loop id="video-background" muted>
+  <source src="images/water720.mp4" type="video/mp4">
+</video>
+  
+  
+</body>
+</html>

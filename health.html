@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Fullscreen Video Background</title>
+      <link href="https://fonts.googleapis.com/css?family=Quicksand:500,600" rel="stylesheet">  
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<!--  Content  -->
+ 
+<div class="contentlarge" style="left:2vw;">
+  <div class="title">Gen5 Health</div>
+  <div class="round" style="background-image: url('images/1.png')"></div>
+  <div class="price">€ 19,99</div>
+  <div class="buttons"><a href="health.html" class="btn">BEKIJKEN</a> <a href="#" class="btn">NU KOPEN</a></div>
+</div>
+<div class="backgroundlarge" style="left:2vw;background-image: url('images/water.jpg');"></div>
+
+<div class="description">
+  <div class="titlelarge">Gen5 Health</div>
+  <div class="longdescription">
+	<p>Gen5 is een supplement bestaande uit 9 essentiële mineralen tezamen maken deze o.a. het beendergestel, de bloedvaten en spieren weer gezond, de nagels sterker en haar dikker.</p>
+<p>Daarnaast draagt Gen5 bij aan het behoud van soepele gewrichten en sterke botten.<br>
+Ook beïnvloedt Gen5 de kwaliteit en elasticiteit van de huid doordat het de aanmaak van collageen stimuleert.</p>
+<p>Gen5 is een onmisbare basis voor innerlijke gezondheid en uiterlijke schoonheid.</p>
+<p>1 flesje Gen5 Health van 25 ml volstaat bij dagelijks gebruik voor ongeveer 2 tot 3 maanden.<br/>Gen5 op kamertemperatuur (15-25°C) bewaren. Niet blootstellen aan direct zonlicht.</p>
+</div>
+</div>
+
+<div class="content" style="left:28vw;height:5vh">
+  <div class="title">Gen5 Collagenator</div>
+</div>
+<div class="background" style="left:28vw;;height:5vh;background-image: url('images/skin.png');"></div>
+
+<div class="content" style="left:52vw;;height:5vh">
+  <div class="title">Gen5 Maca V Unisex</div>
+</div>
+<div class="background" style="left:52vw;;height:5vh;background-image: url('images/maca.png');"></div>
+
+<div class="content" style="left:76vw;;height:5vh">  
+  <div class="title">Gen5 ComplementA Vanille</div>
+</div>
+<div class="background" style="left:76vw;;height:5vh;background-image: url('images/fruit.png');"></div>
+
+
+<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+<video autoplay id="video-background" muted>
+  <source src="images/water720.mp4" type="video/mp4">
+</video>
+  
+  <script type="text/javascript">
+  document.querySelector('video').defaultPlaybackRate = 0.7;
+  document.querySelector('video').playbackRate = 0.7;
+</script>
+  
+</body>
+</html>
