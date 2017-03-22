@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/DSC01948.png" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="false" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" />
+  </settings>
+  <hotspots>
+    <hotspot id="spot1" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo txt="Binnenkort een nieuwe naam: BodySil" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="spot2" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo txt="Binnenkort met NUT nummer" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1333" highresHeight="2000">
+    <image src="images/DSC01948.png">
+      <hotspot source="spot1" offsetX="176" offsetY="225" />
+      <highres src="images/highres/DSC01948.png" />
+    </image>
+    <image src="images/DSC01949.png">
+      <hotspot source="spot1" offsetX="155" offsetY="225" />
+      <highres src="images/highres/DSC01949.png" />
+    </image>
+    <image src="images/DSC01950.png">
+      <hotspot source="spot1" offsetX="132" offsetY="217" />
+      <hotspot source="spot2" offsetX="212" offsetY="360" />
+      <highres src="images/highres/DSC01950.png" />
+    </image>
+    <image src="images/DSC01951.png">
+      <hotspot source="spot1" offsetX="117" offsetY="210" />
+      <hotspot source="spot2" offsetX="192" offsetY="367" />
+      <highres src="images/highres/DSC01951.png" />
+    </image>
+    <image src="images/DSC01952.png">
+      <hotspot source="spot2" offsetX="170" offsetY="366" />
+      <highres src="images/highres/DSC01952.png" />
+    </image>
+    <image src="images/DSC01953.png">
+      <hotspot source="spot2" offsetX="153" offsetY="360" />
+      <highres src="images/highres/DSC01953.png" />
+    </image>
+    <image src="images/DSC01954.png">
+      <hotspot source="spot2" offsetX="140" offsetY="353" />
+      <highres src="images/highres/DSC01954.png" />
+    </image>
+    <image src="images/DSC01955.png">
+      <hotspot source="spot2" offsetX="134" offsetY="344" />
+      <highres src="images/highres/DSC01955.png" />
+    </image>
+    <image src="images/DSC01956.png">
+      <highres src="images/highres/DSC01956.png" />
+    </image>
+    <image src="images/DSC01957.png">
+      <highres src="images/highres/DSC01957.png" />
+    </image>
+    <image src="images/DSC01958.png">
+      <highres src="images/highres/DSC01958.png" />
+    </image>
+    <image src="images/DSC01959.png">
+      <highres src="images/highres/DSC01959.png" />
+    </image>
+    <image src="images/DSC01960.png">
+      <highres src="images/highres/DSC01960.png" />
+    </image>
+    <image src="images/DSC01961.png">
+      <highres src="images/highres/DSC01961.png" />
+    </image>
+    <image src="images/DSC01962.png">
+      <highres src="images/highres/DSC01962.png" />
+    </image>
+    <image src="images/DSC01963.png">
+      <hotspot source="spot1" offsetX="239" offsetY="213" />
+      <highres src="images/highres/DSC01963.png" />
+    </image>
+    <image src="images/DSC01964.png">
+      <hotspot source="spot1" offsetX="224" offsetY="218" />
+      <highres src="images/highres/DSC01964.png" />
+    </image>
+    <image src="images/DSC01965.png">
+      <hotspot source="spot1" offsetX="201" offsetY="224" />
+      <highres src="images/highres/DSC01965.png" />
+    </image>
+    <image src="images/DSC01966.png">
+      <hotspot source="spot1" offsetX="179" offsetY="226" />
+      <highres src="images/highres/DSC01966.png" />
+    </image>
+  </images>
+</config>
